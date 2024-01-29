@@ -1,0 +1,317 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    background-color: #f5f3f3;
+    color: #110f0f;
+  }
+  
+  .main-header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #f8faf7;
+    box-shadow: 4px 10px 8px rgba(12, 12, 12, 0.2);
+    z-index: 1000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-header img.logo {
+    max-width: 100px;
+    margin-left: 100px;
+    
+  }
+  
+  .main-header h1 {
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+  
+  
+    
+  }
+  
+  .main-header nav {
+    margin-right: 90px;
+  }
+  
+  
+  .main-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 10px;
+    
+  }
+  
+  .main-header nav ul li {
+    margin-right: 20px;
+   
+  }
+  
+  .main-header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+   
+    
+    
+  }
+  
+  
+  .contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    margin: -8px;
+    background-image: url('nosotros.jpg'); /* Ruta de la imagen */
+    background-size: cover;
+    background-position: center;
+   
+  
+  }
+
+  /*.boton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid rgb(5, 49, 5);
+    color: #f5f3f3;
+    background: #4CAF50;
+    border-radius: 30px;
+   
+    
+  } */
+  
+  
+  .contenido-texto p{
+  font-size: 22px;
+  color: #f5f1f1;
+  text-align: 40px;
+  margin: 25px;
+  font-weight: 80;
+  
+  
+  
+  
+  
+  
+  }
+  .contenido-texto h1 {
+  
+    font-size: 28px;
+    margin:20px;
+    margin-top: 20%;
+    font-weight: 220;
+    color: #f5f3f3;
+    font-family: 'Ultra', serif;
+    margin-left: 550px;
+    text-align: center;
+    margin-bottom: 140px;
+    
+ 
+  }
+  
+  .imagen3d {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.mision1 {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    padding-right: 20px; /* Espacio entre el texto y la imagen */
+}
+.mision1 h2 {
+    text-align: center;
+}
+.mision1 p{
+    text-align:justify;
+    
+}
+
+.imagen3d2 {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    margin-left: 150px;
+    margin-right: 60px;
+    margin-top: 90px;
+ 
+}
+
+.vision1 {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    padding-right: 7px; /* Espacio entre el texto y la imagen */
+}
+
+.vision h2{
+    text-align: center;
+
+}
+    
+  
+
+  .icono {
+  width: 150px;
+  height: 100px;
+  display: block; /* Convierte la imagen en un bloque */
+  margin-left: auto; /* Establece el margen izquierdo a "auto" */
+  margin-right: auto; /* Establece el margen derecho a "auto" */
+  margin-top: 30px;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: auto; /* Espacio entre las filas */
+  margin-top: 140px;
+ 
+
+}
+
+.column {
+  width: calc (50px - 10px); /* Establece el ancho para ocupar 50% con un pequeño espacio entre elementos */
+  margin-bottom: 50px; /* Espacio entre los elementos */
+  background-color: #e6ece1;
+  border-radius: 60px;
+  margin: 12px;
+  box-shadow: 4px 10px 8px rgba(12, 12, 12, 0.2);
+  
+}
+
+
+
+.nosotros1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -100px;
+ 
+  
+}
+
+.nosotros1 h1{
+  font-size: 43px;
+  margin-top: 90px;
+  margin-bottom: -20px;
+
+}
+
+.nosotros1 h2{
+  text-align: center;
+  margin: -10px;
+
+}
+
+
+section {
+  margin: 40px; /* Márgenes para separación */
+
+}
+
+.parrafos p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  word-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los div dentro de la sección */
+section div {
+    margin: 2.5px ;
+    padding: 10px;
+  text-align: justify;
+
+}
+
+/* Estilos para los encabezados h2 dentro de los div */
+section div h2 {
+  color: #333; /* Color del texto */
+  font-size: 24px; /* Tamaño de fuente */
+  margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilos para los párrafos dentro de los div */
+section div p {
+  line-height: 1.6; /* Altura de línea */
+  color: #666; /* Color del texto */
+}
+
+.whatsap {
+  position: fixed;
+  bottom: 20px; /* Distancia desde la parte inferior */
+  right: 20px; /* Distancia desde la parte derecha */
+  z-index: 999; /* Ajusta la capa para que esté por encima de otros elementos */
+  width: 75px;
+  height: 60px;
+}
+
+.solicita{
+  background-color: #666;
+  text-align: center;
+}
+.btncontactanos{
+  text-decoration: none;
+  background-color: #80857c;
+  border-radius: 30px;
+  padding: 20px;
+ color: #f5f1f1;
+}
+
+@media (max-width: 990px) {
+.contenedor p{
+  font-size: 22px;
+  text-align: justify;
+
+}
+
+.contenedor h1{
+  font-size: 40px;
+}
+  
+
+
+}
+.mision1 h2{
+  text-align: center;
+}
+.mision1 p{
+  text-align: center;
+}
+.imagen3d{
+  margin: 10px;
+  padding: 0;
+  margin-top: 60px;
+}
+.vision p{
+  text-align: center;
+}
+.imagen3d2{
+  margin: 10px;
+  padding: 0;
+  margin-top: 70px;
+  margin-left: 120px;
+
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  
+}
+.column{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
